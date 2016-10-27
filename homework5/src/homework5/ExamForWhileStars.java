@@ -18,17 +18,19 @@ public class ExamForWhileStars {
 	    	
 	    	selectedModule = s.nextInt();
 	    	
+	    	System.out.print("\n");
+	    	
 	    		if(selectedModule == 1)
-	    			new RectagleStars().init();
+	    			new RectangleStars().init();
 	    		
-	    		else if(selectedModule == 2)
+	    		/*else if(selectedModule == 2)
 	    			new TriangleStars().init();
 	    		
 	    		else if(selectedModule == 3)
 	    			new IsoscelesTriangleStars().init();
 	    		
 	    		else if(selectedModule == 4)
-	    			new DiamondStars().init();
+	    			new DiamondStars().init();*/
 	    		
 	    } while(selectedModule!=5);
 	    
