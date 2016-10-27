@@ -11,7 +11,9 @@ public class RectangleStars {
 	 
      void input(){
      	Scanner s = new Scanner(System.in);
- 		System.out.print("정사각형 크기입력: "); 		
+     	
+ 		System.out.print("정사각형 크기입력: "); 
+ 		
  		this.size = s.nextInt();
  		System.out.print("\n");
      }
