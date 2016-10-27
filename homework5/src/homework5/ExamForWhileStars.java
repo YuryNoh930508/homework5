@@ -23,14 +23,14 @@ public class ExamForWhileStars {
 	    		if(selectedModule == 1)
 	    			new RectangleStars().init();
 	    		
-	    		/*else if(selectedModule == 2)
+	    		else if(selectedModule == 2)
 	    			new TriangleStars().init();
 	    		
 	    		else if(selectedModule == 3)
 	    			new IsoscelesTriangleStars().init();
 	    		
 	    		else if(selectedModule == 4)
-	    			new DiamondStars().init();*/
+	    			new DiamondStars().init();
 	    		
 	    } while(selectedModule!=5);
 	    
